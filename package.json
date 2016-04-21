@@ -10,5 +10,9 @@
     "REST"
   ],
   "author": "Wen Chang",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/ajaxon.git"
+  }
 }
