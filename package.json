@@ -1,0 +1,14 @@
+{
+  "name": "ajaxon",
+  "version": "0.0.1",
+  "description": "jQuery-based JSON REST ajax Call",
+  "main": "index.js",
+  "keywords": [
+    "jquery",
+    "ajax",
+    "JSON",
+    "REST"
+  ],
+  "author": "Wen Chang",
+  "license": "MIT"
+}
