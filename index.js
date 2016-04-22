@@ -7,6 +7,7 @@
 			var settings = {
 				type: method
 				,url: url
+				,dataType: "json"
 			};
 			if (data) {
 				if (method === "POST" || method === "PATCH") {
