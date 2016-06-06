@@ -1,2 +1,13 @@
-declare var _default: ($: any) => (method:string, url:string, data: any, done: (err:any, ret:any) => void, headers?:any, rejectUnauthorized?: boolean) => void;
-export = _default;
+interface ICompletionHandler {
+    (err: any, ret: any) : void;
+}
+
+interface IAjaxon {
+    (method: string, url: string, data:any, done: ICompletionHandler, headers?: any, rejectUnauthorized?:boolean) : void;
+}
+
+declare var _default: ($: any) => IAjaxon;
+
+declare module "ajaxon" {
+    export = _default;
+}
