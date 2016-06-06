@@ -7,7 +7,4 @@ interface IAjaxon {
 }
 
 declare var _default: ($: any) => IAjaxon;
-
-declare module "ajaxon" {
-    export = _default;
-}
+export = _default;
