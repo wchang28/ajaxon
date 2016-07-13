@@ -27,6 +27,7 @@
 			});	
 		});
 	}
+	getAJaxon.getAJaxon = getAJaxon;
 	return getAJaxon;
 });
 
